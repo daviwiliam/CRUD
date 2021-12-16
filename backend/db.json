@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "name": "God Of War 4",
+      "price": "249.99",
+      "id": 1
+    },
+    {
+      "name": "FIFA 22",
+      "price": "249.99",
+      "id": 2
+    },
+    {
+      "name": "Watch Dogs 2",
+      "price": "100.00",
+      "id": 3
+    },
+    {
+      "name": "Mortal Kombat 11 Ultimate ",
+      "price": "399.48",
+      "id": 4
+    },
+    {
+      "name": "NBA 2k21",
+      "price": "149.99",
+      "id": 5
+    },
+    {
+      "name": "Skater XL",
+      "price": "239.99",
+      "id": 6
+    }
+  ]
+}

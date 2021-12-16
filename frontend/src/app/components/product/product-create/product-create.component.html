@@ -1,0 +1,23 @@
+<mat-card>
+    <mat-card-title>Cadastrar Game</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome do game" 
+                [(ngModel)]="product.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)"
+                [(ngModel)]="product.price" name="price">
+        </mat-form-field>
+    </form>
+    <button class="but" mat-raised-button (click)="createProduct()" color="primary">
+        Salvar
+    </button>
+    
+    <button class="but" mat-raised-button (click)="cancel()" color="primary">
+        Cancelar
+    </button>
+</mat-card>
+
+
+
